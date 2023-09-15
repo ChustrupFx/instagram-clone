@@ -13,6 +13,11 @@
 		9853F6502AB3D73D00C697B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9853F64E2AB3D73D00C697B7 /* Main.storyboard */; };
 		9853F6522AB3D73F00C697B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6512AB3D73F00C697B7 /* Assets.xcassets */; };
 		9853F6552AB3D73F00C697B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6532AB3D73F00C697B7 /* LaunchScreen.storyboard */; };
+		9853F65E2AB4844200C697B7 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9853F65D2AB4844200C697B7 /* TextInput.swift */; };
+		9853F6642AB49DB000C697B7 /* Instagram Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6602AB49D9900C697B7 /* Instagram Sans Light.ttf */; };
+		9853F6652AB49DB000C697B7 /* Instagram Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6632AB49D9900C697B7 /* Instagram Sans Bold.ttf */; };
+		9853F6662AB49DB000C697B7 /* Instagram Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6612AB49D9900C697B7 /* Instagram Sans.ttf */; };
+		9853F6672AB49DB000C697B7 /* Instagram Sans Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6622AB49D9900C697B7 /* Instagram Sans Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9853F6512AB3D73F00C697B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9853F6542AB3D73F00C697B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9853F6562AB3D73F00C697B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9853F65D2AB4844200C697B7 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		9853F6602AB49D9900C697B7 /* Instagram Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans Light.ttf"; sourceTree = "<group>"; };
+		9853F6612AB49D9900C697B7 /* Instagram Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans.ttf"; sourceTree = "<group>"; };
+		9853F6622AB49D9900C697B7 /* Instagram Sans Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans Medium.ttf"; sourceTree = "<group>"; };
+		9853F6632AB49D9900C697B7 /* Instagram Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		9853F6472AB3D73D00C697B7 /* instagram-clone */ = {
 			isa = PBXGroup;
 			children = (
+				9853F65F2AB49D9300C697B7 /* fonts */,
+				9853F65C2AB4843700C697B7 /* components */,
 				9853F6482AB3D73D00C697B7 /* AppDelegate.swift */,
 				9853F64A2AB3D73D00C697B7 /* SceneDelegate.swift */,
 				9853F64C2AB3D73D00C697B7 /* ViewController.swift */,
@@ -65,6 +77,25 @@
 				9853F6562AB3D73F00C697B7 /* Info.plist */,
 			);
 			path = "instagram-clone";
+			sourceTree = "<group>";
+		};
+		9853F65C2AB4843700C697B7 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9853F65D2AB4844200C697B7 /* TextInput.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		9853F65F2AB49D9300C697B7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9853F6632AB49D9900C697B7 /* Instagram Sans Bold.ttf */,
+				9853F6602AB49D9900C697B7 /* Instagram Sans Light.ttf */,
+				9853F6622AB49D9900C697B7 /* Instagram Sans Medium.ttf */,
+				9853F6612AB49D9900C697B7 /* Instagram Sans.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9853F6552AB3D73F00C697B7 /* LaunchScreen.storyboard in Resources */,
+				9853F6662AB49DB000C697B7 /* Instagram Sans.ttf in Resources */,
+				9853F6652AB49DB000C697B7 /* Instagram Sans Bold.ttf in Resources */,
 				9853F6522AB3D73F00C697B7 /* Assets.xcassets in Resources */,
 				9853F6502AB3D73D00C697B7 /* Main.storyboard in Resources */,
+				9853F6642AB49DB000C697B7 /* Instagram Sans Light.ttf in Resources */,
+				9853F6672AB49DB000C697B7 /* Instagram Sans Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +176,7 @@
 				9853F64D2AB3D73D00C697B7 /* ViewController.swift in Sources */,
 				9853F6492AB3D73D00C697B7 /* AppDelegate.swift in Sources */,
 				9853F64B2AB3D73D00C697B7 /* SceneDelegate.swift in Sources */,
+				9853F65E2AB4844200C697B7 /* TextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

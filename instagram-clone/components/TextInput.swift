@@ -20,7 +20,7 @@ class TextInput: UITextField {
         self.isSecureTextEntry = isSecureTextEntry
         
         NSLayoutConstraint.activate([
-            self.heightAnchor.constraint(equalToConstant: 50)
+            self.heightAnchor.constraint(equalToConstant: 45)
         ])
     }
     

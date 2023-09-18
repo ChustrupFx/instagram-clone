@@ -5,6 +5,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Instagram Sans Light.ttf</string>
+		<string>Instagram Sans Bold.ttf</string>
+		<string>Instagram Sans Medium.ttf</string>
+		<string>Instagram Sans.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

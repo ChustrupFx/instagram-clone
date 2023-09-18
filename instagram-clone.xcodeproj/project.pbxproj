@@ -18,6 +18,8 @@
 		9853F6652AB49DB000C697B7 /* Instagram Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6632AB49D9900C697B7 /* Instagram Sans Bold.ttf */; };
 		9853F6662AB49DB000C697B7 /* Instagram Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6612AB49D9900C697B7 /* Instagram Sans.ttf */; };
 		9853F6672AB49DB000C697B7 /* Instagram Sans Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6622AB49D9900C697B7 /* Instagram Sans Medium.ttf */; };
+		9853F6692AB4BC1A00C697B7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9853F6682AB4BC1A00C697B7 /* Label.swift */; };
+		986E28662AB8790600124733 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E28652AB8790600124733 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		9853F6612AB49D9900C697B7 /* Instagram Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans.ttf"; sourceTree = "<group>"; };
 		9853F6622AB49D9900C697B7 /* Instagram Sans Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans Medium.ttf"; sourceTree = "<group>"; };
 		9853F6632AB49D9900C697B7 /* Instagram Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans Bold.ttf"; sourceTree = "<group>"; };
+		9853F6682AB4BC1A00C697B7 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		986E28652AB8790600124733 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				9853F65D2AB4844200C697B7 /* TextInput.swift */,
+				9853F6682AB4BC1A00C697B7 /* Label.swift */,
+				986E28652AB8790600124733 /* Button.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -174,8 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9853F64D2AB3D73D00C697B7 /* ViewController.swift in Sources */,
+				986E28662AB8790600124733 /* Button.swift in Sources */,
 				9853F6492AB3D73D00C697B7 /* AppDelegate.swift in Sources */,
 				9853F64B2AB3D73D00C697B7 /* SceneDelegate.swift in Sources */,
+				9853F6692AB4BC1A00C697B7 /* Label.swift in Sources */,
 				9853F65E2AB4844200C697B7 /* TextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

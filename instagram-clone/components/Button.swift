@@ -13,7 +13,8 @@ class Button: UIButton {
         layer.cornerRadius = 4
         
         NSLayoutConstraint.activate([
-            heightAnchor.constraint(equalToConstant: 40),
+            heightAnchor.constraint(equalToConstant: 45),
+            
         ])
 
     }

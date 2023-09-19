@@ -20,6 +20,7 @@
 		9853F6672AB49DB000C697B7 /* Instagram Sans Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9853F6622AB49D9900C697B7 /* Instagram Sans Medium.ttf */; };
 		9853F6692AB4BC1A00C697B7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9853F6682AB4BC1A00C697B7 /* Label.swift */; };
 		986E28662AB8790600124733 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E28652AB8790600124733 /* Button.swift */; };
+		986E28682AB87F8600124733 /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E28672AB87F8600124733 /* Divider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9853F6632AB49D9900C697B7 /* Instagram Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Instagram Sans Bold.ttf"; sourceTree = "<group>"; };
 		9853F6682AB4BC1A00C697B7 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		986E28652AB8790600124733 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		986E28672AB87F8600124733 /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				9853F65D2AB4844200C697B7 /* TextInput.swift */,
 				9853F6682AB4BC1A00C697B7 /* Label.swift */,
 				986E28652AB8790600124733 /* Button.swift */,
+				986E28672AB87F8600124733 /* Divider.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				9853F64D2AB3D73D00C697B7 /* ViewController.swift in Sources */,
 				986E28662AB8790600124733 /* Button.swift in Sources */,
 				9853F6492AB3D73D00C697B7 /* AppDelegate.swift in Sources */,
+				986E28682AB87F8600124733 /* Divider.swift in Sources */,
 				9853F64B2AB3D73D00C697B7 /* SceneDelegate.swift in Sources */,
 				9853F6692AB4BC1A00C697B7 /* Label.swift in Sources */,
 				9853F65E2AB4844200C697B7 /* TextInput.swift in Sources */,

@@ -16,10 +16,6 @@ class Label: UILabel {
         } else {
             super.drawText(in: rect)
         }
-        
-       
-        
-        
     }
     
     init(text: String = "", padding: UIEdgeInsets? = nil) {
